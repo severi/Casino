@@ -1,6 +1,6 @@
 Casino
 ======
 
-Casino-card game programming project
+Casino-card game programming project done in Spring 2012
 
-Requires PyQt
+External libraries: PyQt
