@@ -1,5 +1,5 @@
 import sys
-from PySide import QtGui, QtCore
+from PyQt4 import QtGui, QtCore
 from card import *
 from buttonCard import *
 from player import *

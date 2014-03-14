@@ -1,6 +1,6 @@
 from windowGui import *
 import sys
-from PySide import QtGui, QtCore
+from PyQt4 import QtGui, QtCore
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):

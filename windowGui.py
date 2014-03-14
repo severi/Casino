@@ -8,7 +8,7 @@ from handGui import *
 from plrList import *
 from buttons import *
 import sys
-from PySide import QtGui, QtCore
+from PyQt4 import QtGui, QtCore
 from card import *
 import time
 
@@ -322,10 +322,10 @@ class Window(QtGui.QFrame):
             text='c=computer, h=human                     '
             text1="Type of the %d%s player"%(num,txt)
             type1, ok = QtGui.QInputDialog.getText(self, text1, text)
-            if type1.lower()!='c' and type1.lower()!='h':
+            if type1.toLower()!='c' and type1.toLower()!='h':
                 ok=False
         type = Player.COMPUTER
-        if type1.lower()=='h':
+        if type1.toLower()=='h':
             type = Player.HUMAN
         self.game.addPlayer(name,type)
         

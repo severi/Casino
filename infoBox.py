@@ -1,5 +1,5 @@
 import sys
-from PySide import QtGui, QtCore
+from PyQt4 import QtGui, QtCore
 
 class Info(QtGui.QFrame):
     def __init__(self, parent,h,w):
